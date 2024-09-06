@@ -33,10 +33,10 @@ public double getRating() {
 public void setRating(double rating) {
 	this.rating = rating;
 }
-public int getYear() {
+public int getreleaseYear() {
 	return releaseYear;
 }
-public void setYear(int year) {
+public void setreleaseYear(int year) {
 	this.releaseYear = year;
 }
 
