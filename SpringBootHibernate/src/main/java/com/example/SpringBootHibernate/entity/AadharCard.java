@@ -34,6 +34,4 @@ public class AadharCard {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
 }

@@ -1,0 +1,21 @@
+Producer
+    - dependency
+        - web
+        - spring-kafka
+    - configure
+        - where is kafka server
+        - data type -> Object -> json -> string
+    - RestTemplate => KafkaTemplate.send(topic, data)
+
+DataType -> BOOK
+
+
+Consumer
+    - dependency
+        - spring-kafka
+    - different configure
+        - where is kafka server
+        - string -> json -> Object -> data type
+    - KafkaListener
+
+DataType -> BOOK
